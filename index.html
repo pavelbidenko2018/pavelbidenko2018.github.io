@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Made by Pavel Bidenko for HYF test -->
+  <head>
+    <title>Goggle))</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- it is also possible to store css in style.css, but I decieded to leave it here just for ease of editing in the same window -->
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        font-family: sans-serif;
+        font-size: 13px;
+        color: #323232;
+      }
+
+      header {
+        background: transparent;
+        margin-top: 20px;
+        text-align: right;
+      }
+
+      .right-corner-menu {
+        display: inline-block;
+      }
+
+      .line-block {
+        float: left;
+
+        margin: 20px 10px;
+        text-align: center;
+
+        transform: translate(0, -50%);
+      }
+
+      a {
+        text-decoration: none;
+        font-size: 13px;
+        padding-right: 10px;
+      }
+      a:hover,
+      a:focus {
+        text-decoration: underline;
+      }
+
+      header a {
+        font-size: 13px;
+        color: #323232;
+      }
+
+      main {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      main div {
+        margin-bottom: 20px;
+      }
+
+      footer {
+        width: 100%;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        background-color: #F2F2F2;
+      }
+
+      footer a {
+        font-size: 13px;
+        color: #696969;
+      }
+
+      #localization {
+        border-top: 1px solid #DDDDDD;
+        border-bottom: 1px solid #DDDDDD;
+        padding: 15px 0px 15px 30px;
+
+        font-size: 16px;
+        color: #696969;
+      }
+
+      #footer-left {
+        float: left;
+        margin: 10px 0px 10px 30px;
+        text-align: left;
+      }
+
+      #footer-right {
+        float: right;
+        margin: 10px 20px 10px 0px;
+        text-align: right;
+      }
+
+      .logo-holder {
+        position: relative;
+      }
+
+      #google-logo {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0%);
+
+        width: 272px;
+      }
+
+      .search-holder {
+        position: relative;
+
+        background: #fff;
+        border: 1px solid #dfe1e5;
+        box-shadow: none;
+        border-radius: 24px;
+        z-index: 2;
+
+        height: 44px;
+        width: 542px;
+      }
+
+      .search-holder:hover,
+      .search-holder:focus {
+        box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      .search-input {
+        background: transparent;
+        border: none;
+        outline: none;
+
+        height: 34px;
+        width: 460px;
+
+        font: 16px arial, sans-serif;
+        line-height: 34px;
+
+        position: absolute;
+        left: 40px;
+        top: 50%;
+        transform: translate(0%, -50%);
+      }
+
+      .google-button {
+        background-color: #F2F2F2;
+        border: none;
+        border-radius: 4px;
+        color: #696969;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+
+      .google-button:hover {
+        outline: 1px solid #BBBBBB;
+      }
+
+      ul.languages,
+      li {
+        display: inline;
+        padding: 0;
+        list-style-type: none;
+      }
+
+      ul.languages a {
+        color: rgb(0, 0, 200);
+      }
+
+      .img-applications {
+        padding-bottom: 0px;
+      }
+
+      .account {
+        background-color: #00897b;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        text-align: center;
+        color: #CCCCCC;
+        font-size: 18px;
+      }
+
+      .google-glass {
+        position: absolute;
+        left: 15px;
+        top: 50%;
+        transform: translate(0, -50%);
+      }
+
+      .google-mic {
+        width: 14px;
+
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translate(0, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- Upper menu -->
+      <nav class="right-corner-menu">
+        <div class="line-block"><a href="http://gmail.com">Gmail</a></div>
+
+        <div class="line-block">
+          <a href="https://www.google.be/imghp?hl=fr&tab=wi&authuser=0&ogbl"
+            >Images</a
+          >
+        </div>
+
+        <div class="line-block">
+          <a href="https://www.google.be/intl/fr/about/products?tab=wh">
+            <img
+              class="img-applications"
+              src="https://cdn.glitch.com/e01c919e-d4e3-41ce-b926-b37b85bffcfe%2Fapp-icon.png?v=1584449703509"
+              alt="Applications"
+          /></a>
+        </div>
+        <div class="line-block">
+          <a href="https://accounts.google.com/">
+            <!-- I could not find out how to make Account menu with CSS or scripting technologies so it's just a picture :(( -->
+            <img
+              src="https://cdn.glitch.com/e01c919e-d4e3-41ce-b926-b37b85bffcfe%2Faccount-icon.png?v=1584455334597"
+              alt="Account"
+          /></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- main part of the page with Google logo and Search form -->
+      <div class="logo-holder">
+        <img
+          id="google-logo"
+          src="https://cdn.glitch.com/e01c919e-d4e3-41ce-b926-b37b85bffcfe%2Fgooglelogo_color_272x92dp.png?v=1584371855740"
+          alt="Google-logo"
+        />
+      </div>
+
+      <div class="search-holder">
+        <!-- Free SVG Editor was used to draw magnifying glass -->
+        <svg
+          class="google-glass"
+          width="20"
+          height="20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+          <g>
+            <title>background</title>
+            <rect
+              fill="#fff"
+              id="canvas_background"
+              height="16"
+              width="16"
+              y="-1"
+              x="-1"
+            />
+            <g
+              display="none"
+              overflow="visible"
+              y="0"
+              x="0"
+              height="100%"
+              width="100%"
+              id="canvasGrid"
+            >
+              <rect
+                fill="url(#gridpattern)"
+                stroke-width="0"
+                y="0"
+                x="0"
+                height="100%"
+                width="100%"
+              />
+            </g>
+          </g>
+          <g>
+            <title>Layer 1</title>
+            <ellipse
+              stroke="#CCCCCC"
+              ry="5"
+              rx="5"
+              id="svg_1"
+              cy="8"
+              cx="8"
+              stroke-width="2"
+              fill="#ffffff"
+            />
+            <line
+              stroke="#CCCCCC"
+              transform="rotate(-4.123788356781006 15.332897186279233,15.547634124755833) "
+              stroke-linecap="null"
+              stroke-linejoin="null"
+              id="svg_3"
+              y2="18"
+              x2="17"
+              y1="12"
+              x1="12"
+              stroke-opacity="null"
+              stroke-width="3"
+              fill="none"
+            />
+          </g>
+        </svg>
+
+        <input class="search-input" type="text" id="text" name="text" />
+        <!-- This picture of google mic was found over internet, I do not know how to make it work :(( -->
+        <img
+          class="google-mic"
+          src="https://cdn.glitch.com/e01c919e-d4e3-41ce-b926-b37b85bffcfe%2F32px-Google_mic.svg.png?v=1584612585706"
+        />
+      </div>
+
+      <div>
+        <input class="google-button" type="button" value="Rechercher Google" />
+        <input class="google-button" type="button" value="J'ai de la chance" />
+      </div>
+
+      <ul class="languages">
+        <li>Google disponible en :</li>
+        <li>
+          <a
+            href="https://www.google.be/setprefs?sig=0_oTQURZAKzyJWnPmhsBfWmTC99f4%3D&hl=nl&source=homepage&sa=X&ved=0ahUKEwjV46W9xaHoAhVE-6QKHXWcAXMQ2ZgBCA4"
+            >Nederlands</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.google.be/setprefs?sig=0_oTQURZAKzyJWnPmhsBfWmTC99f4%3D&hl=de&source=homepage&sa=X&ved=0ahUKEwjV46W9xaHoAhVE-6QKHXWcAXMQ2ZgBCA8"
+            >Deutsch</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.google.be/setprefs?sig=0_oTQURZAKzyJWnPmhsBfWmTC99f4%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwjV46W9xaHoAhVE-6QKHXWcAXMQ2ZgBCBA"
+            >English</a
+          >
+        </li>
+      </ul>
+    </main>
+
+    <footer>
+      <!-- This section is for the down menu -->
+      <div id="localization">
+        Belgique
+      </div>
+      <nav id="footer-left">
+        <a
+          href="https://www.google.be/intl/fr_be/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+          >Publicité</a
+        >
+        <a
+          href="https://www.google.be/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1"
+          >Entreprise</a
+        >
+        <a
+          href="https://about.google/?utm_source=google-BE&utm_medium=referral&utm_campaign=hp-footer&fg=1"
+          >À propos</a
+        >
+        <a href="https://google.com/search/howsearchworks/?fg=1"
+          >Comment fonctionne la recherche Google ?</a
+        >
+      </nav>
+
+      <nav id="footer-right">
+        <a href="https://policies.google.com/privacy?fg=1">Confidentialité</a>
+        <a href="https://policies.google.com/terms?fg=1">Conditions</a>
+        <a href="https://www.google.be/preferences?hl=fr">Paramètres</a>
+      </nav>
+    </footer>
+  </body>
+</html>
