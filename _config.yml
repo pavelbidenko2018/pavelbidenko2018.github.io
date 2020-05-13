@@ -1,3 +1,5 @@
 theme: jekyll-theme-slate
+
 layout: page
-title: "Home page"
+title: "Styles"
+permalink: /pages/styles
