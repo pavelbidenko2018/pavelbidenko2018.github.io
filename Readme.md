@@ -1,4 +1,5 @@
-#### Pavel Bidenko Home Page
+layout: page
+title: "Welcome"
 
 | [Contents](#contents) | [Markdown text styles](#markdown-text-styles) | [Tables](#tables) | [Lists](#lists) | [Links](#links)
 
