@@ -10,7 +10,7 @@
 * For bold and italic use a combination of (`**_`): **_bold & italic_**
 
 | [To the top >>](#text-styling) |
-|---|
+
 
 ---
 
@@ -24,7 +24,7 @@ To make headers in Markdown, preface the phrase with a hash mark (`#`). Use from
 ##### Header Level 5
 ###### Header Level 6
 
-[To the top >>](#text-styling)
+| [To the top >>](#text-styling) |
 ---
 
 #### Lists
@@ -42,7 +42,6 @@ For _numeric list_ use `number&dot + space combination (1., 2., 3., etc)` before
 4. etc...
 
 | [To the top >>](#text-styling) |
-|---|
 ---
 
 #### Tables
@@ -67,6 +66,9 @@ looks like:
 | Cell 21 | Cell 22 | 
 | Cell n1 | Cell n2 | 
 
+| [To the top >>](#text-styling) |
+---
+
 
 #### Links
 ---
@@ -77,7 +79,6 @@ For example, `[ Visit #Hackyourfuture ] ( https://home.hackyourfuture.be/ )`.
 >For link's text it is possible to use _italic_, **bold** font faces, and their combinations. Also one can use links in headers
 
 | [To the top >>](#text-styling) |
-|---|
 ---
 
 #### Code
@@ -101,10 +102,10 @@ alert(s);
 ```
 
 | [To the top >>](#text-styling) |
-|---|
 ---
 
-##### 2020 | Pavel Bidenko | [Me on github](github.io/pavelbidenko2018)
+
+
 
 
 
