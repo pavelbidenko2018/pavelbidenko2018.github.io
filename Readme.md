@@ -9,7 +9,7 @@
 
 * For bold and italic use a combination of (`**_`): **_bold & italic_**
 
-| ##### [To the top >>](#text-styling) |
+| [To the top >>](#text-styling) |
 |---|
 
 ---
@@ -24,7 +24,7 @@ To make headers in Markdown, preface the phrase with a hash mark (`#`). Use from
 ##### Header Level 5
 ###### Header Level 6
 
-##### [To the top >>](#text-styling)
+[To the top >>](#text-styling)
 ---
 
 #### Lists
@@ -41,7 +41,7 @@ For _numeric list_ use `number&dot + space combination (1., 2., 3., etc)` before
 3. Third
 4. etc...
 
-| ##### [To the top >>](#text-styling) |
+| [To the top >>](#text-styling) |
 |---|
 ---
 
@@ -49,17 +49,18 @@ For _numeric list_ use `number&dot + space combination (1., 2., 3., etc)` before
 To add a table, use three or more hyphens (`---`) to create each column’s header, and use pipes (`|`) to separate each column. You can optionally add pipes on either end of the table.  
 _Example:_
 
->| Syntax      | Description | `// header`
+>`|Syntax|Description| // header`
 >
->| ----------- | ----------- | `// dividing line` 
+>`| ----------- | ----------- | // dividing line` 
 >
->| Cell 11      | Cell 12     | `// row 1`
+>`| Cell 11      | Cell 12     | // row 1`
 >
->| Cell 21    | Cell 22     | `// row 1`
+>`| Cell 21    | Cell 22     | // row 1`
 >
->| Cell n1   | Cell n2        | `// row _n_`
+>`| Cell n1   | Cell n2        | // row _n_`
 
-looks like:
+looks like:  
+
 | Syntax      | Description | 
 | ----------- | ----------- | 
 | Cell 11 | Cell 12 | 
@@ -75,7 +76,7 @@ For example, `[ Visit #Hackyourfuture ] ( https://home.hackyourfuture.be/ )`.
 
 >For link's text it is possible to use _italic_, **bold** font faces, and their combinations. Also one can use links in headers
 
-| ##### [To the top >>](#text-styling) |
+| [To the top >>](#text-styling) |
 |---|
 ---
 
@@ -98,19 +99,8 @@ For example:
 var s = "JavaScript syntax highlighting";
 alert(s);
 ```
- 
-> _```pyton_  
->
-> _s = "Python syntax highlighting"_
->
->  _print s```_
 
-like this:
-```python
-s = "Python syntax highlighting"
-print s
-```
-| ##### [To the top >>](#text-styling) |
+| [To the top >>](#text-styling) |
 |---|
 ---
 
